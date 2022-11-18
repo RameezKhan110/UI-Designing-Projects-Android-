@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Restaurant Menu</string>
+    <string name="biryani_description">Karahi is a tomato-based curry with very few spices like ginger, garlic, green chilies, cumin, coriander, and pepper. It is usually made of lamb or chicken. White karahi, a dairy-based is another variant.</string>
+    <string name="low_cost_high_quality">LOW COST, HIGH QUALITY</string>
+</resources>

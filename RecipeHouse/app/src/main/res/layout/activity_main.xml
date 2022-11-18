@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#EBD6BC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#E0A96D">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recipe House"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic">
+
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/pasta"
+                android:elevation="12dp"
+                app:cardBackgroundColor="#EE4E34"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="330dp"
+                        android:src="@drawable/pasta"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Pasta Recipes"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_marginTop="3dp"
+                        android:background="#E0A96D">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:elevation="12dp"
+                android:id="@+id/healthysalad"
+                app:cardBackgroundColor="#EE4E34"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="330dp"
+                        android:src="@drawable/salad"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Salad Recipes"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_marginTop="3dp"
+                        android:background="#E0A96D">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:elevation="12dp"
+                android:id="@+id/kabab"
+                app:cardBackgroundColor="#EE4E34"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="330dp"
+                        android:src="@drawable/kabab"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Turkish Kabad"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_marginTop="3dp"
+                        android:background="#E0A96D">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/beefburger"
+                android:elevation="12dp"
+                app:cardBackgroundColor="#EE4E34"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="330dp"
+                        android:src="@drawable/burger"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Beef Burger"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_marginTop="3dp"
+                        android:background="#E0A96D">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/steak"
+                android:elevation="12dp"
+                app:cardBackgroundColor="#EE4E34"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="330dp"
+                        android:src="@drawable/steak"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Beef Steak"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_marginTop="3dp"
+                        android:background="#E0A96D">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
